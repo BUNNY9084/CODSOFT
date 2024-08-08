@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kri$hna - Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(0, 0, 33);
+            color: white;
+            font-family: "Poppins", sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(9, 9, 68);
+
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li :hover {
+            color: rgb(174, 174, 247);
+            font-size: 1.05rem;
+        }
+
+        main hr {
+            border: o;
+            background: #837dfd;
+            height: 1.2px;
+            margin: 40px 90px;
+        }
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 70px 0;
+
+        }
+
+        .firstSection>div {
+            width: 30%;
+
+        }
+
+        .leftSection {
+
+            font-size: 2rem;
+        }
+
+        .rightSection img {
+            width: 80%;
+        }
+
+        .purple {
+            color: rgb(169, 97, 237);
+
+        }
+
+        #element {
+            color: rgb(169, 97, 237);
+
+        }
+
+        .secondSection {
+            max-width: 80vw;
+            margin: auto;
+
+        }
+
+        .secondSection h1 {
+            font-size: 2rem;
+        }
+
+        .img_ab {
+            float: right;
+            margin-left: 10px;
+            margin-bottom: 5px;
+            border: solid white 1px;
+            padding: 2px;
+
+        }
+
+        .ThirdSection {
+            position: right;
+            font-size: 1rem;
+            width: 100%;
+            font-size: 1.2rem;
+
+
+        }
+
+        footer {
+            padding: 23px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Kri$hna's Portfolio</div>
+            <div class="right"></div>
+            <ul>
+                <li><a href="/">Home</a>
+                <li>
+                <li><a href="/">About</a></li>
+                <li><a href="/">Services</a></li>
+                <li><a href="/">Project</a></li>
+                <li><a href="/">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi there, I'm <span class="purple">Shyam Krishna</span>
+                <div>and I'm a passionate</div>
+                <div>Web Developer</div>
+
+                <span id="element"></span>
+
+            </div>
+            <div class="rightSection">
+                <img src="sk.png" alt="" srcset="">
+            </div>
+        </section>
+        <hr>
+        <section class="secondSection">
+            <h1>About</h1>
+            <div class="ThirdSection">
+                <img class="img_ab" src="kk.jpg" alt="" srcset="" width="150px" height="200px">
+                <p> <b><i style="color:rgb(169, 97, 237)">
+                            <div></div>Full Name:
+                        </i></b> Shyam Krishna Shah </p <p> <b><i style="color:rgb(169, 97, 237)"> Background:</i></b>
+                Student </p>
+                <p> <b><i style="color:rgb(169, 97, 237)"> Education:</i></b> High
+                    School(2016-2017)<br>Intermidate(2018-2019)</p>
+                <p> <b><i style="color:rgb(169, 97, 237)""color:rgb(169, 97, 237)"> Skills:</i></b>Web Devlopment<br>Ms
+                    Office <br> Adobe Photoshop<br>Video Editor </p>
+                <p> <b><i style="color:rgb(169, 97, 237)""color:rgb(169, 97, 237)">Contact Information:
+                        </i></b>7668869689<br>shyamkrishan62@gmail.com</p>
+
+                <span id="element"></span>
+
+            </div>
+        </section>
+    </main>
+    <footer>
+        Copyright &copy; KR$NA.com | All rights reserved
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Graphic Designer', 'Web Designer', 'Video Editor',],
+            typeSpeed: 50,
+
+        });
+    </script>
+</body>
+
+</html>
